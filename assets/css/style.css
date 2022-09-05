@@ -23,12 +23,18 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+.hero {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    /* height: 800px;
+    width: 100%;
+    margin-bottom: 25px;  */
+    background-size: cover;
+    background-position: center;
 }
+
 
 h1 {
     display: inline-block;
@@ -45,10 +51,13 @@ h3 {
     text-align: center;
 }
 
-.header h1 .seo {
+h4
+{font:strong;}
+
+.hero h1 .seo {
     color: #d9dcd6;
 }
-.header div {
+.hero div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
