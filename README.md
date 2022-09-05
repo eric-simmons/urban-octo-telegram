@@ -4,4 +4,3 @@ The code in this repository creates the webpage for Horiseon Social Solution Ser
 
  <img src="/assets/images/readme-screenshot.jpeg"  alt="Screenshot of the Horiseon Landing page. Navigation bar at top of webpage. Large image depiciting team members looking over documents together. Below the large image there are three horizontal bars and a vertical sidebar on the right side. These bars contain information relating to the webpage">
 
- ![Alt text](./assets/images/readme-screenshot.jpeg "Optional title")
