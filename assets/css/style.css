@@ -1,23 +1,11 @@
+
+/* overall page attributes */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-size: 16px;
 }
-
-/* @media all and (max-width: 800px) {
-    .navigation {
-      justify-content: space-around;
-    }
-  }
-  
-  @media all and (max-width: 600px) {
-    .navigation {
-      flex-flow: column wrap;
-      padding: 0;
-    }
- 
-  } */
 
 body {
     background-color: #d9dcd6;
@@ -28,17 +16,25 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    /* height: 800px;
+    /* height: 800px; */
+    /* width: 100%; */
+    /* margin-bottom: 25px;  */
+    /* background-size: cover;
+    background-position: center; */
+}
+/* .div id(.digital-marketing-meeting){
+    height: 800px;
     width: 100%;
-    margin-bottom: 25px;  */
+    margin-bottom: 25px;
     background-size: cover;
     background-position: center;
-}
+} */
 
 
 h1 {
     display: inline-block;
     font-size: 48px;
+    font-weight:bold;
 }
 
 h2 {
@@ -52,7 +48,9 @@ h3 {
 }
 
 h4
-{font:strong;}
+{
+    font-weight: bold;
+}
 
 .hero h1 .seo {
     color: #d9dcd6;
@@ -79,7 +77,8 @@ a {
 
 .digital-marketing-meeting img
 {
-    height: auto;
+    object-fit: cover;
+    height: 800px;
     width: 100%;
     margin-bottom: 25px;
     /* background-image: url("../images/digital-marketing-meeting.jpg"); */
